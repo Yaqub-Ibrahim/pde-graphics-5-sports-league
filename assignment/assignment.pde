@@ -7,6 +7,7 @@
  */
  
 void setup() {
+    size(700, 700);
     String team1name = "Oilers";
     int team1wins = 0;
     int team1loses = 15;
@@ -30,5 +31,21 @@ void setup() {
 }
 
 void draw() {
+  background(255, 255, 255);
+  
+  textSize(25);
+  fill(0, 0, 0);
+  text("The first team is called Edmonton Oilers.", 100, 350);
+  text("The second team is called Philadelphia Eagles", 100, 400);
+  text("The third team is called the Chicago Bulls", 100, 450);
+  for (int x=0; x<4; x++) {
+  for (int y=0; y<4; y++) {
+    fill(255, 255, 255);
+    rect(150*x, 75*y, 150, 75);
+  }
+  }
+  
+
+ 
 
 }
