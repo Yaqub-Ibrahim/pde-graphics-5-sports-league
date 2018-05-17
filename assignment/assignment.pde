@@ -45,10 +45,10 @@ void draw() {
   }
   
   
-  String team1name = "Oilers";
-    int team1wins = 0;
-    int team1loses = 15;
-    int team1points = team1wins-team1loses;
+   String team1name = "Oilers";
+   int team1wins = 0;
+   int team1loses = 15;
+   int team1points = team1wins-team1loses;
     
    String team2name = "Eagles";
     int team2wins = 10;
@@ -57,9 +57,9 @@ void draw() {
     
     
   String team3name = "Bulls";
-    int team3wins = 16;
-    int team3loses = 0;
-    int team3points = team3wins-team3loses;
+  int team3wins = 16;
+  int team3loses = 0;
+  int team3points = team3wins-team3loses;
   
   
   textSize(20);
@@ -72,6 +72,19 @@ void draw() {
   text(team1name, 50, 125);
   text(team2name, 50, 200);
   text(team3name, 50, 275);
+  
+  text(team1wins, 200, 125);
+  text(team2wins, 200, 200);
+  text(team3wins, 200, 275);
+  
+  text(team1loses, 350, 125);
+  text(team2loses, 350, 200);
+  text(team3loses, 350, 275);
+  
+  text(team1points, 500, 125);
+  text(team2points, 500, 200);
+  text(team3points, 500, 275);
+ 
   
   
   
