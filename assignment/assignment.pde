@@ -43,12 +43,40 @@ void draw() {
     fill(255, 255, 255);
     rect(150*x, 75*y, 150, 75);
   }
+  
+  
+  String team1name = "Oilers";
+    int team1wins = 0;
+    int team1loses = 15;
+    int team1points = team1wins-team1loses;
+    
+   String team2name = "Eagles";
+    int team2wins = 10;
+    int team2loses = 2;
+    int team2points = team2wins-team2loses;
+    
+    
+  String team3name = "Bulls";
+    int team3wins = 16;
+    int team3loses = 0;
+    int team3points = team3wins-team3loses;
+  
+  
   textSize(20);
   fill(0, 0, 0);
   text("Team", 50, 50);
   text("Wins", 200, 50);
   text("Loses", 350, 50);
   text("Points", 500, 50);
+  
+  text(team1name, 50, 125);
+  text(team2name, 50, 200);
+  text(team3name, 50, 275);
+  
+  
+  
+  
+  
   
   
   }
