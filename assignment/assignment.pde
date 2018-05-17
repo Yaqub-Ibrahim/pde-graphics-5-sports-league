@@ -35,14 +35,22 @@ void draw() {
   
   textSize(25);
   fill(0, 0, 0);
-  text("The first team is called Edmonton Oilers.", 100, 350);
-  text("The second team is called Philadelphia Eagles", 100, 400);
-  text("The third team is called the Chicago Bulls", 100, 450);
+  text("The first team is called Edmonton Oilers.", 50, 350);
+  text("The second team is called Philadelphia Eagles", 50, 400);
+  text("The third team is called the Chicago Bulls", 50, 450);
   for (int x=0; x<4; x++) {
   for (int y=0; y<4; y++) {
     fill(255, 255, 255);
     rect(150*x, 75*y, 150, 75);
   }
+  textSize(20);
+  fill(0, 0, 0);
+  text("Team", 50, 50);
+  text("Wins", 200, 50);
+  text("Loses", 350, 50);
+  text("Points", 500, 50);
+  
+  
   }
   
 
